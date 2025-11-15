@@ -1,175 +1,129 @@
-📱 Mobile Testing Project
+🎮 Mobile App Testing Project
 
-Manual Mobile QA Documentation (Test Plan, Test Cases, Bug Reports, Checklist, Summary)
+Comprehensive QA documentation for mobile gameplay, UI testing, and defect reporting.
 
-A complete mobile testing project demonstrating practical QA skills for gesture-based mobile applications.
+📌 Overview
 
-📌 Table of Contents
+This project contains a complete set of mobile QA artifacts created during testing of a game application.
+It includes structured documentation such as:
 
-Project Overview
+Test Plan
 
-Scope of Testing
+Test Cases
 
-Documentation Included
+Bugs Reports
 
-Test Artifacts
+Checklist
 
 Summary of Findings
 
-Tools Used
+All documents follow industry-standard QA formats and can be used for portfolio, interviews, or onboarding.
 
-Author
+📂 Project Structure
+Mobile_Testing_Project/
+│
+├── Test_Plan.md
+├── Checklist.md
+├── Test_Cases.md
+├── Bug_Reports.md
+└── Summary.md
 
-📖 Project Overview
+🧪 Documentation Included
+📄 Test Plan
 
-This project contains the full documentation package for testing a mobile game application.
-The focus of the project is to demonstrate manual QA skills:
+Covers the project scope, objectives, test strategy, risks, entry/exit criteria, required devices, and testing approach.
 
-Mobile functional testing
-
-UI/UX testing
-
-Exploratory testing
-
-Test design
-
-Documenting defects
-
-Writing structured QA documentation
-
-All files are prepared in a clean, portfolio-ready format.
-
-🎯 Scope of Testing
-✔ Functional Testing
-
-App launch
-
-Character movement logic
-
-Swipe responsiveness
-
-Jump mechanics
-
-Obstacle interaction
-
-Game-over conditions
-
-✔ UI/UX Testing
-
-UI visibility on mobile screen
-
-Readability and layout
-
-Touch input accuracy
-
-Smoothness of interactions
-
-Accessibility and usability
-
-✔ Exploratory Testing
-
-Free exploration of game behavior
-
-Edge-case discovery
-
-Unexpected game freezes
-
-Hitbox inconsistencies
-
-Input delay detection
-
-📂 Documentation Included
-
-All documentation is stored in separate, professionally structured files:
-
-File	Description
-Test_Plan.md	Test scope, approach, goals, risks, exit criteria
-Checklist.md	Quick mobile UI & gameplay verification
-Test_Cases.md	Detailed test case descriptions
-Bug_Reports.md	Full defect list with severity & priority
-Summary.md	Final testing report
-🧪 Test Artifacts
-✔ Test Plan
-
-Covers project scope, testing strategy, roles, risks, and entry/exit criteria.
+🔗 View Test Plan
 
 ✔ Checklist
 
-A simplified set of checks for fast validation of key mobile features.
+A lightweight list for quick mobile feature verification, including navigation, UI, controls, and performance checks.
 
-✔ Test Cases
+🔗 View Checklist
 
-Well-structured workflows covering movement, interaction, collision behavior, and UI elements.
+🧩 Test Cases
 
-✔ Bug Reports
+Structured test cases covering:
 
-Formal defect descriptions including:
+movement validation
 
-steps to reproduce
+interactions
 
-expected vs actual result
+collision behavior
 
-severity
+UI and HUD elements
 
-priority
+functional gameplay behavior
 
-✔ Summary
+Each test case includes:
 
-Final evaluation of app stability, main issues, severity distribution, and testing results.
+Precondition
 
-📊 Summary of Findings
-✔ What works
+Steps
 
-Game launches properly
+Expected Result
 
-Core UI elements display correctly
+Severity / Priority (if applicable)
 
-Swipe controls are recognized
+🔗 View Test Cases
 
-Main loops function without crashes
+🐞 Bug Reports
 
-❌ Issues found
+Complete bug descriptions including:
 
-As documented in Bug_Reports.md:
+Title
 
-Delayed swipe response
+Environment
 
-Incorrect character movement behavior
+Steps to Reproduce
 
-Hitbox triggers too early
+Expected Result
 
-Freeze during continuous swipe/hold interaction
+Actual Result
 
-Lack of clear lane-based movement system
+Attachments (if any)
 
-📝 Conclusion
+Severity & Priority
 
-The game is functional but requires significant improvements in:
+🔗 View Bug Reports
 
-gesture handling
+📊 Summary
 
-movement logic
+Final evaluation of:
 
-collision detection
+app stability
 
-responsiveness
+detected issues
 
-Status: Not ready for production release.
+severity distribution
 
-🛠 Tools Used
+what works well
 
-Android mobile device
+what needs improvement
 
-Chrome mobile browser
+🔗 View Summary
 
-Manual exploratory testing techniques
+📈 Summary of Findings
+✅ What Works
 
-GitHub for documentation storage
+Game launches normally
 
-Markdown for structured QA documentation
+Controls respond correctly
 
-✨ Author
+Basic UI loads without critical issues
+
+Key gameplay functions operate as intended
+
+⚠ Areas Requiring Improvement
+
+(detailed inside Summary.md)
+
+👩‍💻 Author
 
 Karina Kuzmina
-Junior Manual QA Engineer — Mobile & Web Testing
-Future Backend Developer
+Aspiring QA Engineer / Future Backend Developer
+Mobile & API Testing • Documentation • Analysis
+
+📎 Notes
+
+This repository is part of a full QA portfolio, demonstrating ability to test mobile apps, prepare structured documentation, and communicate issues professionally.
