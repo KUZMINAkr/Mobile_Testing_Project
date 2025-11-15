@@ -1,0 +1,103 @@
+name: 🐞 Mobile Bug Report
+description: Report a bug found during mobile testing
+title: "[Mobile Bug]: "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐞 Mobile Bug Report
+        Please fill in all required fields to help reproduce and fix the issue.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 📱 Platform
+      description: Select the platform where the issue was found
+      options:
+        - Android
+        - iOS
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: 🌐 Environment
+      description: Device model, OS version, app version/build number
+      placeholder: "Example: Samsung S21 / Android 14 / Build 1.0.23"
+    validations:
+      required: true
+
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: ⚙️ Preconditions
+      description: What conditions must be met before reproducing the issue?
+      placeholder: "User is logged in, valid network connection, certain screen opened…"
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: ▶️ Steps to reproduce
+      description: List each step on a new line
+      placeholder: |
+        1. Open the app
+        2. Go to 'Profile'
+        3. Tap 'Save'
+        4. Observe the error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Expected result
+      placeholder: "Screen loads correctly / Action completes without error…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Actual result
+      placeholder: "App crashes / UI freezes / Error message appears…"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 🔥 Severity
+      options:
+        - Blocker
+        - Critical
+        - Major
+        - Minor
+        - Trivial
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 📌 Priority
+      options:
+        - priority: high
+        - priority: medium
+        - priority: low
+    validations:
+      required: true
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 📎 Attachments
+      description: Add screenshots, crash logs, video, or links
+      placeholder: "Drag & drop files here or paste links"
+    validations:
+      required: false
